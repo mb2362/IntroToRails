@@ -178,3 +178,29 @@ Processing by MoviesController#show as HTML
 Completed 200 OK in 108ms (Views: 52.1ms | ActiveRecord: 0.8ms | Allocations: 7512)
 
 
+DEPRECATION WARNING: Non-URL-safe CSRF tokens are deprecated. Use 6.1 defaults or above. (called from require at <internal:C:/Ruby32-x64/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:38)
+DEPRECATION WARNING: Using legacy connection handling is deprecated. Please set
+`legacy_connection_handling` to `false` in your application.
+
+The new connection handling does not support `connection_handlers`
+getter and setter.
+
+Read more about how to migrate at: https://guides.rubyonrails.org/v7.0/active_record_multiple_databases.html#migrate-to-the-new-connection-handling
+ (called from require at <internal:C:/Ruby32-x64/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:38)
+Started GET "/" for 127.0.0.1 at 2025-11-11 21:15:47 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/movies" for 127.0.0.1 at 2025-11-11 21:15:48 -0500
+Processing by MoviesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (0.7ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  ↳ app/views/movies/index.html.erb:6
+  Rendered movies/_movie.html.erb (Duration: 4.6ms | Allocations: 384)
+  Rendered movies/_movie.html.erb (Duration: 0.6ms | Allocations: 39)
+  Rendered movies/_movie.html.erb (Duration: 0.7ms | Allocations: 40)
+  Rendered movies/_movie.html.erb (Duration: 0.4ms | Allocations: 39)
+  Rendered movies/index.html.erb within layouts/application (Duration: 168.6ms | Allocations: 7739)
+  Rendered layout layouts/application.html.erb (Duration: 359.6ms | Allocations: 14607)
+Completed 200 OK in 498ms (Views: 392.2ms | ActiveRecord: 5.5ms | Allocations: 21245)
+
+
