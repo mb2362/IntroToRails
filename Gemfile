@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby "3.2.9"
 
 gem 'rails', '~> 7.0.0'
-gem 'sqlite3', '~> 1.4', platforms: [:windows]
+gem 'sqlite3', '~> 1.4', platforms: [:windows, :linux]
 gem 'puma', '~> 5.0'
 gem 'sass-rails', '>= 6'
 gem 'uglifier', '>= 1.3.0'
