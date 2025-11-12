@@ -1,0 +1,180 @@
+DEPRECATION WARNING: `config.active_support.to_time_preserves_timezone` is deprecated and will be removed in Rails 8.2 (called from <top (required)> at C:/Users/monil/OneDrive/Desktop/Sem 3/SDM/rottenpotatoes/config/initializers/to_time_preserves_timezone.rb:10)
+DEPRECATION WARNING: `config.active_support.to_time_preserves_timezone` is deprecated and will be removed in Rails 8.2 (called from <top (required)> at C:/Users/monil/OneDrive/Desktop/Sem 3/SDM/rottenpotatoes/config/initializers/to_time_preserves_timezone.rb:10)
+DEPRECATION WARNING: Non-URL-safe CSRF tokens are deprecated. Use 6.1 defaults or above. (called from require at <internal:C:/Ruby32-x64/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:38)
+DEPRECATION WARNING: Using legacy connection handling is deprecated. Please set
+`legacy_connection_handling` to `false` in your application.
+
+The new connection handling does not support `connection_handlers`
+getter and setter.
+
+Read more about how to migrate at: https://guides.rubyonrails.org/v7.0/active_record_multiple_databases.html#migrate-to-the-new-connection-handling
+ (called from require at <internal:C:/Ruby32-x64/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:38)
+Started GET "/" for ::1 at 2025-11-07 14:34:09 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.0.10/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.0.10/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.8ms | Allocations: 613)
+Completed 200 OK in 90ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 5635)
+
+
+DEPRECATION WARNING: Using legacy connection handling is deprecated. Please set
+`legacy_connection_handling` to `false` in your application.
+
+The new connection handling does not support `connection_handlers`
+getter and setter.
+
+Read more about how to migrate at: https://guides.rubyonrails.org/v7.0/active_record_multiple_databases.html#migrate-to-the-new-connection-handling
+ (called from require at <internal:C:/Ruby32-x64/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:38)
+DEPRECATION WARNING: Using legacy connection handling is deprecated. Please set
+`legacy_connection_handling` to `false` in your application.
+
+The new connection handling does not support `connection_handlers`
+getter and setter.
+
+Read more about how to migrate at: https://guides.rubyonrails.org/v7.0/active_record_multiple_databases.html#migrate-to-the-new-connection-handling
+ (called from require at <internal:C:/Ruby32-x64/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:38)
+  [1m[35m (10.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (8.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateMovies (20251107195524)
+DEPRECATION WARNING: Using legacy connection handling is deprecated. Please set
+`legacy_connection_handling` to `false` in your application.
+
+The new connection handling does not support `connection_handlers`
+getter and setter.
+
+Read more about how to migrate at: https://guides.rubyonrails.org/v7.0/active_record_multiple_databases.html#migrate-to-the-new-connection-handling
+ (called from require at <internal:C:/Ruby32-x64/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:38)
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateMovies (20251107195524)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (6.2ms)[0m  [1m[35mCREATE TABLE "movies" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "rating" varchar, "description" text, "release_date" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20251107195524"]]
+  [1m[36mTRANSACTION (8.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (2.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2025-11-07 19:57:36.959872"], ["updated_at", "2025-11-07 19:57:36.959872"]]
+  [1m[36mTRANSACTION (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+DEPRECATION WARNING: Using legacy connection handling is deprecated. Please set
+`legacy_connection_handling` to `false` in your application.
+
+The new connection handling does not support `connection_handlers`
+getter and setter.
+
+Read more about how to migrate at: https://guides.rubyonrails.org/v7.0/active_record_multiple_databases.html#migrate-to-the-new-connection-handling
+ (called from require at <internal:C:/Ruby32-x64/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:38)
+DEPRECATION WARNING: Using legacy connection handling is deprecated. Please set
+`legacy_connection_handling` to `false` in your application.
+
+The new connection handling does not support `connection_handlers`
+getter and setter.
+
+Read more about how to migrate at: https://guides.rubyonrails.org/v7.0/active_record_multiple_databases.html#migrate-to-the-new-connection-handling
+ (called from require at <internal:C:/Ruby32-x64/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:38)
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMovie Create (4.3ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Aladdin"], ["rating", "G"], ["release_date", "1992-11-25 00:00:00"], ["created_at", "2025-11-08 02:45:40.405750"], ["updated_at", "2025-11-08 02:45:40.405750"]]
+  [1m[36mTRANSACTION (5.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMovie Create (1.8ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "When Harry Met Sally"], ["rating", "R"], ["release_date", "1989-07-21 00:00:00"], ["created_at", "2025-11-08 02:45:40.425320"], ["updated_at", "2025-11-08 02:45:40.425320"]]
+  [1m[36mTRANSACTION (7.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMovie Create (2.2ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Help"], ["rating", "PG-13"], ["release_date", "2011-08-10 00:00:00"], ["created_at", "2025-11-08 02:45:40.441705"], ["updated_at", "2025-11-08 02:45:40.441705"]]
+  [1m[36mTRANSACTION (6.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMovie Create (2.7ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Raiders of the Lost Ark"], ["rating", "PG"], ["release_date", "1981-06-12 00:00:00"], ["created_at", "2025-11-08 02:45:40.459861"], ["updated_at", "2025-11-08 02:45:40.459861"]]
+  [1m[36mTRANSACTION (7.5ms)[0m  [1m[36mcommit transaction[0m
+DEPRECATION WARNING: Using legacy connection handling is deprecated. Please set
+`legacy_connection_handling` to `false` in your application.
+
+The new connection handling does not support `connection_handlers`
+getter and setter.
+
+Read more about how to migrate at: https://guides.rubyonrails.org/v7.0/active_record_multiple_databases.html#migrate-to-the-new-connection-handling
+ (called from require at <internal:C:/Ruby32-x64/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:38)
+DEPRECATION WARNING: Using legacy connection handling is deprecated. Please set
+`legacy_connection_handling` to `false` in your application.
+
+The new connection handling does not support `connection_handlers`
+getter and setter.
+
+Read more about how to migrate at: https://guides.rubyonrails.org/v7.0/active_record_multiple_databases.html#migrate-to-the-new-connection-handling
+ (called from require at <internal:C:/Ruby32-x64/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:38)
+DEPRECATION WARNING: Non-URL-safe CSRF tokens are deprecated. Use 6.1 defaults or above. (called from require at <internal:C:/Ruby32-x64/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:38)
+DEPRECATION WARNING: Using legacy connection handling is deprecated. Please set
+`legacy_connection_handling` to `false` in your application.
+
+The new connection handling does not support `connection_handlers`
+getter and setter.
+
+Read more about how to migrate at: https://guides.rubyonrails.org/v7.0/active_record_multiple_databases.html#migrate-to-the-new-connection-handling
+ (called from require at <internal:C:/Ruby32-x64/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:38)
+Started GET "/" for ::1 at 2025-11-07 21:49:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/movies" for ::1 at 2025-11-07 21:49:15 -0500
+Processing by MoviesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (0.6ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  ↳ app/views/movies/index.html.erb:6
+  Rendered movies/_movie.html.erb (Duration: 3.5ms | Allocations: 381)
+  Rendered movies/_movie.html.erb (Duration: 0.6ms | Allocations: 39)
+  Rendered movies/_movie.html.erb (Duration: 0.4ms | Allocations: 40)
+  Rendered movies/_movie.html.erb (Duration: 0.4ms | Allocations: 39)
+  Rendered movies/index.html.erb within layouts/application (Duration: 59.8ms | Allocations: 7725)
+  Rendered layout layouts/application.html.erb (Duration: 1066.3ms | Allocations: 35822)
+Completed 200 OK in 1187ms (Views: 1092.9ms | ActiveRecord: 2.3ms | Allocations: 41438)
+
+
+Started GET "/movies/1" for ::1 at 2025-11-07 21:49:19 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.8ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/movies_controller.rb:63:in `set_movie'
+  Rendering layout layouts/application.html.erb
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/_movie.html.erb (Duration: 0.6ms | Allocations: 39)
+  Rendered movies/show.html.erb within layouts/application (Duration: 3.9ms | Allocations: 630)
+  Rendered layout layouts/application.html.erb (Duration: 29.8ms | Allocations: 3618)
+Completed 200 OK in 54ms (Views: 31.8ms | ActiveRecord: 0.8ms | Allocations: 7511)
+
+
+DEPRECATION WARNING: Non-URL-safe CSRF tokens are deprecated. Use 6.1 defaults or above. (called from require at <internal:C:/Ruby32-x64/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:38)
+DEPRECATION WARNING: Using legacy connection handling is deprecated. Please set
+`legacy_connection_handling` to `false` in your application.
+
+The new connection handling does not support `connection_handlers`
+getter and setter.
+
+Read more about how to migrate at: https://guides.rubyonrails.org/v7.0/active_record_multiple_databases.html#migrate-to-the-new-connection-handling
+ (called from require at <internal:C:/Ruby32-x64/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:38)
+Started GET "/" for ::1 at 2025-11-11 19:55:37 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/movies" for ::1 at 2025-11-11 19:55:38 -0500
+Processing by MoviesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  ↳ app/views/movies/index.html.erb:6
+  Rendered movies/_movie.html.erb (Duration: 29.4ms | Allocations: 381)
+  Rendered movies/_movie.html.erb (Duration: 0.5ms | Allocations: 39)
+  Rendered movies/_movie.html.erb (Duration: 0.4ms | Allocations: 40)
+  Rendered movies/_movie.html.erb (Duration: 0.4ms | Allocations: 39)
+  Rendered movies/index.html.erb within layouts/application (Duration: 226.8ms | Allocations: 7723)
+  Rendered layout layouts/application.html.erb (Duration: 779.5ms | Allocations: 14629)
+Completed 200 OK in 1282ms (Views: 906.4ms | ActiveRecord: 1.2ms | Allocations: 20245)
+
+
+Started GET "/movies/1" for ::1 at 2025-11-11 19:55:57 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.8ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/movies_controller.rb:63:in `set_movie'
+  Rendering layout layouts/application.html.erb
+  Rendering movies/show.html.erb within layouts/application
+  Rendered movies/_movie.html.erb (Duration: 0.6ms | Allocations: 39)
+  Rendered movies/show.html.erb within layouts/application (Duration: 27.1ms | Allocations: 630)
+  Rendered layout layouts/application.html.erb (Duration: 49.8ms | Allocations: 3618)
+Completed 200 OK in 108ms (Views: 52.1ms | ActiveRecord: 0.8ms | Allocations: 7512)
+
+

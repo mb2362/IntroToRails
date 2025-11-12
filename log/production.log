@@ -1,0 +1,7 @@
+W, [2025-11-11T20:54:52.515800 #3052]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2025-11-11T20:54:52.714216 #3052]  INFO -- : Migrating to CreateMovies (20251107195524)
+W, [2025-11-11T21:00:13.136430 #7772]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2025-11-11T21:00:13.438665 #7772]  INFO -- : Migrating to CreateMovies (20251107195524)
+W, [2025-11-11T21:03:24.215271 #11484]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2025-11-11T21:10:20.281291 #3656]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2025-11-11T21:12:39.173138 #10100]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
